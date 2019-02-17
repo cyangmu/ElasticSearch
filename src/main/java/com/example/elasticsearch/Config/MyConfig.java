@@ -22,10 +22,10 @@ public class MyConfig {
     @Bean
     public TransportClient client() throws UnknownHostException {
         TransportAddress node = new TransportAddress(
-                InetAddress.getByName("www.thetnteam.com"), 9300
+                InetAddress.getByName("自己的网站"), 9300
         );
         Settings settings = Settings.builder()
-                .put("cluster.name", "cyj")
+                .put("cluster.name", "自定义")
                 .build();
         TransportClient client = new PreBuiltTransportClient(settings);
         client.addTransportAddress(node);
