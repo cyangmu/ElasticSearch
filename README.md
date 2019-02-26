@@ -1,7 +1,7 @@
 # ElasticSearch 实践
 
 1. [官方文档](https://www.elastic.co/guide/en/elasticsearch/client/java-api/6.7/index.html)
-2. [在线地址](http://www.thetnteam.com:9200/)
+2. [在线地址](http://www.thetnteam.com:9100/)
 
 ## 接口查询
 
